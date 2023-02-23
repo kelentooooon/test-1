@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #ddd;
+}
+
+img {
+    width: 400px;
+    margin: 100px 0 0 0;
+}
+
+.image {
+    position: absolute;
+    right: 100px;
+    display: inline;
+}
+
+.disc {
+    position: absolute;
+    display: inline;
+    margin-left: 125px;
+    margin-top: 100px;
+    width: 500px;
+
+}
+
+.disc h1 {
+    padding: 0 0 10px 0;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
